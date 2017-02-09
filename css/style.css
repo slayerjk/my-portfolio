@@ -234,15 +234,23 @@ audio {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  width: 960px;
+  flex-wrap: wrap;
   padding: 20px;
   background-color: #fff;
+  border-radius: 10px;
 }
 
 .my-works__work {
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 400px;
+  margin-bottom: 20px;
   background-color: grey;
+  border: 5px solid grey;
+  border-radius: 10px;
+}
+
+.my-works__work-overlay {
+  display: none;
 }
 
 /* FOOTER */
