@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pixel-plus 3-level test</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  
+  <!--<link href="css/style.css" rel="stylesheet">-->
+  <link href="css/style-min.css" rel="stylesheet">
+  
+  <!--<link rel="stylesheet" href="css/jquery-ui.min.css">-->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  
+  <!--<script src="script/jquery-3.1.1.min.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  
+  <!--<script src="script/jquery-ui.min.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo header__logo">
+        <a class="text-common logo_header" href="#">
+          <img class="media-common" src="img/header__logo.png" width="273" height="100" alt="company-logo">
+          <h1 class="text-common header__company-name">Название компании</h1>
+          <span class="text-common header__company-slogan">Самая клева компания</span>
+        </a>
+      </div>
+      <div class="header__contacts">
+        <span class="text-common header-contacts__phones header-contacts__phones_1">+7(499) 777-77-77</span>
+        <span class="text-common header-contacts__phones header-contacts__phones_2">+7(499) 777-77-77</span>
+        <br>
+        <a class="link-common header-contacts__feedback-link feedback-js" href="feedback-no-js.html">Обратная связь</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="main-menu">
+    <div class="container">
+      <ul class="list-common main-menu__list">
+        <li class="main-menu__element">
+          <a class="link-common main-menu__link main-menu__link_1" href="#">Главная</a>
+        </li>
+        <li class="main-menu__element">
+          <a class="link-common main-menu__link main-menu__link_2" href="#">Каталог</a>
+        </li>
+        <li class="main-menu__element">
+          <a class="link-common main-menu__link main-menu__link_3" href="#">Доставка и оплата</a>
+        </li>
+        <li class="main-menu__element">
+          <a class="link-common main-menu__link main-menu__link_4" href="#">Прайс-лист</a>
+        </li>
+        <li class="main-menu__element">
+          <a class="link-common main-menu__link main-menu__link_5" href="#">Контакты</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="slider">
+    <div class="container_slider">
+      <input id="slider-r1" class="slider__input" type="radio" name="slider-radio" value="slider-r1" checked>
+      <input id="slider-r2" class="slider__input" type="radio" name="slider-radio" value="slider-r2">
+      <div class="slider__switches">
+        <label for="slider-r1" class="slider__switch slider__switch_left"></label>
+        <label for="slider-r2" class="slider__switch slider__switch_right"></label>
+      </div>
+      <div class="slider__wrapper">
+        <div class="slider__slide slider__slide_1"></div>
+        <div class="slider__slide slider__slide_2"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="catalog">
+    <div class="container container_catalog">
+      <div class="catalog__breadcrumbs">
+        <a class="link-common catalog__breadcrumb" href="#">Главная /</a>
+        <a class="link-common catalog__breadcrumb" href="#">Каталог /</a>
+        <a class="link-common catalog__breadcrumb" href="#">Бытовая техника /</a>
+        <span class="catalog__breadcrumb_active">Чайники</span>
+      </div>
+
+      <div class="catalog__main-content">
+        <div class="catalog__leftblock">
+          <ul class="list-common catalog__menu">
+            <li class="catalog__menu-item">
+              <a class="link-common catalog__menu-link" href="#">Автомобили</a>
+            </li>
+            <li class="catalog__menu-item">
+              <a class="link-common catalog__menu-link catalog__menu-link_active" href="#">Бытовая техника</a>
+              <ul class="list-common catalog__submenu catalog__submenu_active">
+                <li class="catalog__menu-item catalog__submenu-item">
+                  <a class="link-common catalog__menu-link catalog__submenu-link" href="#">Микроволновки</a>
+                </li>
+                <li class="catalog__menu-item catalog__submenu-item">
+                  <a class="link-common catalog__menu-link catalog__submenu-link" href="#">Холодильники</a>
+                </li>
+                <li class="catalog__menu-item catalog__submenu-item">
+                  <a class="link-common catalog__menu-link catalog__submenu-link" href="#">Посудомоечные машины</a>
+                </li>
+                <li class="catalog__menu-item catalog__submenu-item">
+                  <span class="link-common catalog__menu-link_active catalog__submenu-link">Чайники</span>
+                </li>
+              </ul>
+            </li>
+            <li class="catalog__menu-item">
+              <a class="link-common catalog__menu-link" href="#">Мобильная техника</a>
+            </li>
+            <li class="catalog__menu-item">
+              <a class="link-common catalog__menu-link" href="#">Компьютеры</a> </li>
+            <li class="catalog__menu-item"> <a class="link-common catalog__menu-link" href="#">Одежда</a>
+            </li>
+            <li class="catalog__menu-item">
+              <a class="link-common catalog__menu-link" href="#">Недвижимость</a>
+            </li>
+          </ul>
+          <div class="catalog__pricelist">
+            <a class="link-common catalog__pricelist-link" href="#"> <img class="media-common catalog__pricelist-img" src="img/catalog__pricelist-img.png" width="97" height="111" alt="excel-icon"> <span class="text-common catalog__pricelist-name">Прайс-лист</span> </a>
+          </div>
+        </div>
+
+        <div class="catalog__centerblock">
+          <div class="catalog__items">
+            <div class="catalog__item catalog__item_1">
+              <a href="#">
+                <img class="media-common catalog__item-img" src="img/teapot_1.jpg" width="210" height="209" alt="item-img">
+              </a>
+              <span class="text-common catalog__item-description">
+                Самый клевый чайник,<br>
+                который надо купить!
+              </span>
+              <div class="catalog-item__price-block">
+                <span class="text-common catalog__item-price">1 900 р.</span>
+                <a class="link-common catalog__cart-link" href="#">
+                  <img class="media-common catalog__cart-icon" src="img/catalog__cart-icon.png" width="25" height="25" alt="cart-icon">
+                </a>
+              </div>
+            </div>
+            <div class="catalog__item catalog__item_2">
+              <a href="#">
+                <img class="media-common catalog__item-img" src="img/teapot_2.jpg" width="210" height="209" alt="item-img">
+              </a>
+              <span class="text-common catalog__item-description">
+                Самый клевый чайник,<br>
+                который надо купить!
+              </span>
+              <div class="catalog-item__price-block">
+                <span class="text-common catalog__item-price">1 900 р.</span>
+                <a class="link-common catalog__cart-link" href="#">
+                  <img class="media-common catalog__cart-icon" src="img/catalog__cart-icon.png" width="25" height="25" alt="cart-icon">
+                </a>
+              </div>
+            </div>
+            <div class="catalog__item catalog__item_3">
+              <a href="#">
+                <img class="media-common catalog__item-img" src="img/teapot_3.jpg" width="210" height="209" alt="item-img">
+              </a>
+              <span class="text-common catalog__item-description">
+                Самый клевый чайник,<br>
+                который надо купить!
+              </span>
+              <div class="catalog-item__price-block">
+                <span class="text-common catalog__item-price">1 900 р.</span>
+                <a class="link-common catalog__cart-link" href="#">
+                  <img class="media-common catalog__cart-icon" src="img/catalog__cart-icon.png" width="25" height="25" alt="cart-icon">
+                </a>
+              </div>
+            </div>
+            <div class="catalog__item catalog__item_4">
+              <a href="#">
+                <img class="media-common catalog__item-img" src="img/teapot_4.jpg" width="210" height="209" alt="item-img">
+              </a>
+              <span class="text-common catalog__item-description">
+                Самый клевый чайник,<br>
+                который надо купить!
+              </span>
+              <div class="catalog-item__price-block">
+                <span class="text-common catalog__item-price">1 900 р.</span>
+                <a class="link-common catalog__cart-link" href="#">
+                  <img class="media-common catalog__cart-icon" src="img/catalog__cart-icon.png" width="25" height="25" alt="cart-icon">
+                </a>
+              </div>
+            </div>
+            <div class="catalog__item catalog__item_5">
+              <a href="#">
+                <img class="media-common catalog__item-img" src="img/teapot_5.jpg" width="210" height="209" alt="item-img">
+              </a>
+              <span class="text-common catalog__item-description">
+                Самый клевый чайник,<br>
+                который надо купить!
+              </span>
+              <div class="catalog-item__price-block">
+                <span class="text-common catalog__item-price">1 900 р.</span>
+                <a class="link-common catalog__cart-link" href="#">
+                  <img class="media-common catalog__cart-icon" src="img/catalog__cart-icon.png" width="25" height="25" alt="cart-icon">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="catalog__nav-bar">
+            <ul class="list-common catalog__nav-list">
+              <li class="catalog__nav-elem">
+                <a class="link-common catalog__nav-link" href="#">1</a>
+              </li>
+              <li class="catalog__nav-elem">
+                <a class="link-common catalog__nav-link" href="#">2</a>
+              </li>
+              <li class="catalog__nav-elem">
+                <span class="text-common catalog__nav-link_active">3</span>
+              </li>
+              <li class="catalog__nav-elem">
+                <a class="link-common catalog__nav-link" href="#">4</a>
+              </li>
+              <li class="catalog__nav-elem">
+                <a class="link-common catalog__nav-link" href="#">5</a>
+              </li>
+              <li class="catalog__nav-elem">
+                <a class="link-common catalog__nav-link" href="#">6</a>
+              </li>
+              <li class="catalog__nav-elem">
+                <a class="link-common catalog__nav-link" href="#">7</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="company-about">
+            <div class="company-about__col company-about__col_left">
+              <span class="text-common company-about__span">
+                Компания «Пиксель Плюс» существует более 6 лет, за это
+                время ма принимали участие в разработке более чем
+                700 сайтов, поэтому можем уверенно называть себя 
+                профессионалами. На данный момент наш коллектив
+                состоит из более чем 30 сотрудниковработающих в двух
+                офисах в Москве и Зеленограде.характерные для этого
+                жанра мотивы: неразделённой любви, ухода молодости,
+                угасания души.
+              </span>
+            </div>
+            <div class="company-about__col company-about__col_right">
+              <span class="text-common company-about__span">
+                Одним из основных направлений работ нашей компании
+                является поисковое продвижение сайтов, на данный момент
+                мы работаем с более чем 150 постоянными
+                клиентами по более чем 11 000 поисковым запросам.
+                При этом в работе основной акцент мы делаем на каче-<br>
+                стве работ, а так же применяем собственные уникальные
+                разработки в области SEO продвижения. На данный
+                момент отдел SEO состоит из 9 человек под руковод-<br>
+                ством ведущего специалиста, преимущественно работа-<br>
+                ющих в нашем московском офисе.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container container_footer">
+      <div class="footer__company-name">
+        <span class="text-common footer-company-name__span">
+          © 2012–2013 ЗАО «Компания» <br>
+          <a class="link-common company-email" href="#">info@name.ru</a>
+        </span>
+      </div>
+      <ul class="list-common footer__menu">
+        <li class="footer-menu__elem">
+          <a href="" class="footer-menu__link">Главная</a>
+        </li>
+        <li class="footer-menu__elem">
+          <a href="" class="footer-menu__link">Каталог</a>
+        </li>
+        <li class="footer-menu__elem">
+          <a href="" class="footer-menu__link">Доставка и оплата</a>
+        </li>
+        <li class="footer-menu__elem">
+          <a href="" class="footer-menu__link">Прайс-лист</a>
+        </li>
+        <li class="footer-menu__elem">
+          <a href="" class="footer-menu__link">Контакты</a>
+        </li>
+      </ul>
+      <div class="footer__company-logo">
+        <a class="link-common" href="#">
+          <img class="media-common logo_footer" src="img/footer__company-logo.png" width="36" height="38" alt="footer-logo">
+        </a>
+        <span class="text-common footer-comapny-logo__description">
+          Разработка сайта —<br> 
+          компания <a class="link-common pixel-plus-link" href="#">«Пиксель Плюс»</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="overlay"></div>
+  <div class="feedback feedback_hide feedback_js">
+    <button class="feedback__close" title="Закрыть"></button>
+    <form class="feedback__form" method="post">
+      <h2 class="text-common feedback__title">Обратная связь</h2>
+      <label for="user-name" class="feedback__label">Ваше имя *</label>
+      <input id="user-name" type="text" class="feedback__input feedback__input_required" name="user-name" required>
+      <label for="user-phone" class="feedback__label">Телефон *</label>
+      <input id="user-phone" type="text" class="feedback__input feedback__input_required" name="user-phone" required>
+      <label for="user-email" class="feedback__label">Email *</label>
+      <input id="user-email" type="email" class="feedback__input feedback__input_required" name="user-email" required>
+      <label for="user-message" class="feedback__label">Сообщение</label>
+      <textarea id="user-message" class="feedback__input feedback__textarea" name="user-message" rows="6"></textarea>
+      <input type="submit" class="feedback__submit" value="Отправить">
+    </form>
+  </div>
+
+  <!--<script src="script/script.js"></script>-->
+  <script src="script/script-min.js"></script>
+</body>
+
+</html>
