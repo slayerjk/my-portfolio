@@ -3,7 +3,7 @@
 
 $(document).ready(function () {
   "use strict";
-
+  
 // Write-us behaviour  
   $('.js-write-us').click(function () {
     event.preventDefault();

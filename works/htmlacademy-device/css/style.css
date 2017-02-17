@@ -261,6 +261,7 @@ header.catalog .header-logo {
   font: 15px/36px "Open Sans Light", Arial, sans-serif;
   border: 1px solid #000000;
   background-color: #f7e296;
+  cursor: pointer;
 }
 
 input:focus + input[type="submit"] {
@@ -561,7 +562,7 @@ input:focus + input[type="submit"] {
 }
 
 .slide p {
-  padding-right: 80px;
+  padding-right: 63px;
   margin-bottom: 50px;
   font: 15px/30px "Open Sans Light", Arial, sans-serif;
   letter-spacing: 0.1px;
@@ -1188,6 +1189,10 @@ input:focus + input[type="submit"] {
 
 .shoop-about h2 {
   margin-bottom: 45px;
+}
+
+.shop-about p {
+ letter-spacing: -0.5px;
 }
 
 .shop-about p:nth-of-type(2) {
@@ -2048,8 +2053,9 @@ footer.catalog .logo {
 }
 
 .footer-middle-section span:first-of-type {
-  margin-left: -10px;
-  margin-right: 165px;
+  width: auto;
+  margin-right: 158px;
+  text-align: left;
 }
 
 .footer-middle-section span:last-of-type {
