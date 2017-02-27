@@ -18,33 +18,27 @@
   <header class="header header_index">
     <div class="nav-menu_top">
       <div class="content content_index">
-        <ul class="list-common top-menu">
-          <li class="top-menu__li">
+        <div class="top-menu">
+          <div class="top-menu__left">
             <h1 classs="text-common technomart-logo_top">
               <a class="link-common logo logo_header" href="#">Техномарт</a>
             </h1>
-          </li>
-          <li class="top-menu__li top-menu__li_search">
             <form class="top-menu__form" method="post">
               <input class="top-menu__element top-menu__input top-menu__input_search" type="search" placeholder="Поиск:">
               <span class="top-menu__icon-font top-menu__icon-font_search icon-search"></span>
               <input class="top-menu__input top-menu__input_submit" type="submit" value="">
             </form>
-          </li>
-          <li class="top-menu__li top-menu__li_bookmarks">
-            <a href="technomart-bookmarks.html" class="link-common top-menu__element top-menu__link top-menu__link_bookmarks">
-              <span class="top-menu__icon-font top-menu__icon-font_bookmark icon-bookmark"></span> Закладки: 0
+          </div>
+          <div class="top-menu__right">
+            <a href="technomart-bookmarks.html" class="link-common top-menu__element top-menu__link top-menu__link_bookmarks top-menu__link_bookmarks_catalog">
+              <span class="top-menu__icon-font top-menu__icon-font_bookmark top-menu__icon-font_bookmark-catalog icon-bookmark"></span> Закладки: 0
             </a>
-          </li>
-          <li class="top-menu__li top-menu__li_basket">
             <a href="technomart-basket.html" class="link-common top-menu__element top-menu__link top-menu__link_basket top-menu__link_basket-not-empty">
-              <span class="top-menu__icon-font top-menu__icon-font_basket icon-basket"></span> Корзина: 10
+              <span class="top-menu__icon-font top-menu__icon-font_basket top-menu__icon-font_basket-not-empty icon-basket"></span> Корзина: 10
             </a>
-          </li>
-          <li class="top-menu__li top-menu__li_order">
             <a href="technomart-formalize-order.html" class="link-common top-menu__element top-menu__link top-menu__link_order">Оформить заказ</a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -70,7 +64,7 @@
             <a class="link-common user-menu__button user-menu__button_login user-menu__button_logout" href="technomart-enter.html">
               <span class="icon-user user-menu__icon-font user-menu__icon-font_user user-menu__span"></span>
               <span class="text-common user-menu__span user-menu__span_user-name">Равшан Джамшутович</span>
-              <span class="icon-logout user-menu__icon-font user-menu__icon-font_login user-menu__span"></span>
+              <span class="icon-logout user-menu__icon-font user-menu__icon-font_loout user-menu__span"></span>
             </a>
             <div class="user-menu__user-links">
               <a class="link-common user-menu__user-link user-menu__user-link_orders" href="#">Мои заказы</a>
@@ -112,12 +106,19 @@
     <div class="content content_index">
 
       <div class="breadcrumbs">
-        <a class="link-common breadcrumbs__link" href="#" title="На главную">
-          <span class="breadcrumbs__icon-font icon-home"></span>
+        <a class="link-common breadcrumbs__link breadcrumbs__link_home" href="#" title="На главную">
+          <span class="breadcrumbs__icon-font breadcrumbs__icon-font_home icon-home"></span>
+          <span class="breadcrumbs__icon-font breadcrumbs__icon-font_right icon-right"></span>
         </a>
-        <a class="link-common breadcrumbs__link" href="#" title="В каталог">Каталог</a>
-        <a class="link-common breadcrumbs__link" href="#" title="В Инструменты">Инструмент</a>
-        <span class="text-common breadcrumbs__link breadcrumbs__link_active">Перфораторы</span>
+        <a class="link-common breadcrumbs__link" href="#" title="В каталог">
+          <span class="breadcrumbs__link-name">Каталог</span>
+          <span class="breadcrumbs__icon-font breadcrumbs__icon-font_right icon-right"></span>
+        </a>
+        <a class="link-common breadcrumbs__link" href="#" title="В Инструменты">
+          <span class="breadcrumbs__link-name">Инструмент</span>
+          <span class="breadcrumbs__icon-font breadcrumbs__icon-font_right icon-right"></span>
+        </a>
+        <span class="text-common breadcrumbs__link_active">Перфораторы</span>
       </div>
 
       <div class="index__title-block index__title-block_catalog">
@@ -127,57 +128,88 @@
       <div class="main-catalog">
         <div class="filter-section">
           <div class="catalog__section-title catalog__section-title_filter">
-            <h3 class="text-common catalog__section-title-h3">Фильтр</h3>
+            <h3 class="text-common catalog__section-title-h3">Фильтр:</h3>
           </div>
           <form class="filter__form">
-            <div class="filter__section">
-              <h3 class="text-common filter__title">Цена</h3>
+            <div class="filter__block filter__block_price">
+              <h3 class="text-common filter__title">Цена:</h3>
               <div class="filter__input-range">
-                <input class="filter__input filter__input_range" type="range">
-                <div class="input-range__switch input-range__switch_1"></div>
-                <div class="input-range__switch input-range__switch_1"></div>
-                <div class="input-range__scale"></div>
-                <div class="inpur-range__bar"></div>
-                <div class="input-range__value input-range__value_start">0</div>
-                <div class="input-range__value input-range__value_end">30000</div>
+                <div class="filter__input_range">
+                  <div class="input-range__switch input-range__switch_left"></div>
+                  <div class="input-range__switch input-range__switch_right"></div>
+                  <div class="input-range__scale"></div>
+                  <div class="input-range__bar"></div>
+                </div>
+                <div class="input-range__values">
+                  <div class="input-range__value input-range__value_start">0</div>
+                  <div class="input-range__value input-range__value_end">30000</div>
+                </div>
               </div>
             </div>
-            <div class="filter__section">
-              <h3 class="text-common filter__title">Производители</h3>
+            <div class="filter__block">
+              <h3 class="text-common filter__title">Производители:</h3>
               <input id="bosch" class="filter__input filter__input_checkbox" type="checkbox" name="brends" checked>
-              <label for="bosch" class="filter__label">Bosch</label>
-              <input id="интрескол" class="filter__input filter__input_checkbox" type="checkbox" name="brends">
-              <label for="интерскол" class="filter__label">Интрескол</label>
+              <label for="bosch" class="filter__label filter__label_for-checkbox">
+                <span class="icon-check-off filter__icon-font filter__icon-font_unchecked"></span>
+                <span class="icon-check-on filter__icon-font filter__icon-font_checked filter__icon-font_checked-box"></span>
+                Bosch
+              </label>
+              <input id="interskol" class="filter__input filter__input_checkbox" type="checkbox" name="brends"> 
+              <label for="interskol" class="filter__label filter__label_for-checkbox">
+                <span class="icon-check-off filter__icon-font filter__icon-font_unchecked"></span>
+                <span class="icon-check-on filter__icon-font filter__icon-font_checked filter__icon-font_checked-box"></span>
+                Интрескол
+              </label>
               <input id="makita" class="filter__input filter__input_checkbox" type="checkbox" name="brends" checked>
-              <label for="makita" class="filter__label">Makita</label>
+              <label for="makita" class="filter__label filter__label_for-checkbox">
+                <span class="icon-check-off filter__icon-font filter__icon-font_unchecked"></span>
+                <span class="icon-check-on filter__icon-font filter__icon-font_checked filter__icon-font_checked-box"></span>
+                Makita
+              </label>
               <input id="dewalt" class="filter__input filter__input_checkbox" type="checkbox" name="brends">
-              <label for="dewalt" class="filter__label">Dewalt</label>
+              <label for="dewalt" class="filter__label filter__label_for-checkbox">
+                <span class="icon-check-off filter__icon-font filter__icon-font_unchecked"></span>
+                <span class="icon-check-on filter__icon-font filter__icon-font_checked filter__icon-font_checked-box"></span>
+                Dewalt
+              </label>
               <input id="hitachi" class="filter__input filter__input_checkbox" type="checkbox" name="brends">
-              <label for="hitachi" class="filter__label">Hitachi</label>
+              <label for="hitachi" class="filter__label filter__label_for-checkbox">
+                <span class="icon-check-off filter__icon-font filter__icon-font_unchecked"></span>
+                <span class="icon-check-on filter__icon-font filter__icon-font_checked filter__icon-font_checked-box"></span>
+                Hitachi
+              </label>
             </div>
-            <div class="filter__section">
-              <h3 class="text-common filter__title">Питание</h3>
+            <div class="filter__block filter__block_power">
+              <h3 class="text-common filter__title filter__title_power">Питание:</h3>
               <input id="accum" class="filter__input filter__input_radio" type="radio" name="power" value="accum" checked>
-              <label for="accum" class="filter__label">Аккумуляторные</label>
+              <label for="accum" class="filter__label filter__label_for-radio">
+                <span class="icon-circle filter__icon-font filter__icon-font_unchecked"></span>
+                <span class="icon-circle-dot filter__icon-font filter__icon-font_checked"></span>
+                Аккумуляторные</label>
               <input id="netw" class="filter__input filter__input_radio" type="radio" name="power" value="netw">
-              <label for="netw" class="filter__label">Сетевые</label>
+              <label for="netw" class="filter__label filter__label_for-radio">
+                <span class="icon-circle filter__icon-font filter__icon-font_unchecked"></span>
+                <span class="icon-circle-dot filter__icon-font filter__icon-font_checked"></span>
+                Сетевые</label>
             </div>
-            <input class="filter__submit catalog__button" type="submit" value="Показать">
+            <input class="catalog__button filter__submit" type="submit" value="Показать">
           </form>
         </div>
 
         <div class="items-section">
           <div class="catalog__section-title catalog__section-title_sorting">
-            <h3 class="text-common catalog__section-title-h3">Сортировка</h3>
-            <a href="#" class="link-common catalog__sort-link catalog__sort-link_active">По цене</a>
-            <a href="#" class="link-common catalog__sort-link">По типу</a>
-            <a href="#" class="link-common catalog__sort-link">По функционалу</a>
-            <a href="#" class="link-common catalog__sort-link">
-              <span class="catalog__icon-font catalog__icon-font_up icon-up"></span>
-            </a>
-            <a href="#" class="link-common catalog__sort-link">
-              <span class="catalog__icon-font catalog__icon-font_down icon-down"></span>
-            </a>
+            <h3 class="text-common catalog__section-title-h3 catalog__section-title-h3_sortmenu">Сортировка:</h3>
+            <div class="catalog__sort-links">
+              <a href="#" class="link-common catalog__sort-link catalog__sort-link_active">По цене</a>
+              <a href="#" class="link-common catalog__sort-link">По типу</a>
+              <a href="#" class="link-common catalog__sort-link">По функционалу</a>
+              <a href="#" class="link-common catalog__sort-link catalog__sort-link_active catalog__sort-link_up">
+                <span class="catalog__icon-font catalog__icon-font_up icon-up-dir"></span>
+              </a>
+              <a href="#" class="link-common catalog__sort-link catalog__sort-link_down">
+                <span class="catalog__icon-font catalog__icon-font_down icon-down-dir"></span>
+              </a>
+            </div>
           </div>
 
           <div class="items">
@@ -321,112 +353,113 @@
               <span class="text-common feature-item__old-price"><del></del></span>
               <a class="link-common technomart-button_red tecnomart-button_price" href="#">12500 Р.</a>
             </div>
-            
-            <div class="catalog__items-nav">
-              <a href="#" class="link-common catalog__button">1</a>
-              <a href="#" class="link-common catalog__button">2</a>
-              <a href="#" class="link-common catalog__button">3</a>
-              <a href="#" class="link-common catalog__button">Следующая</a>
-            </div>
+          </div>
+          <div class="catalog__items-nav">
+            <a href="#" class="link-common technomart-button_red catalog__button catalog__button_nav catalog__button_nav_active">1</a>
+            <a href="#" class="link-common catalog__button catalog__button_nav">2</a>
+            <a href="#" class="link-common catalog__button catalog__button_nav">3</a>
+            <a href="#" class="link-common catalog__button catalog__button_nav catalog__button_nav-next">Следующая</a>
           </div>
         </div>
       </div>
-      
-      <div class="index__title-block index__title-block_catalog">
-          <h2 class="text-common index-title-block__h2">Пара слов о перфораторах</h2>
-          <p class="text-common index__title-block__p">
-            Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.
-            <br>Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В
-            <br>ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.
-          </p>
-        </div>
-    </main>
+    </div>
+    <div class="index__title-block index__title-block_catalog index__title-block_catalog2">
+      <div class="content">
+        <h2 class="text-common index-title-block__h2 index-title-block__h2_catalog">Пара слов о перфораторах</h2>
+        <p class="text-common index__title-block__p">
+          Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.
+          <br>Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В
+          <br>ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.
+        </p>
+      </div>
+    </div>
+  </main>
 
-    <footer class="footer-top">
-      <div class="content content_footer-top">
-        <div class="footer-top__top">
-          <div class="footer-top__logo">
-            <h1 classs="text-common technomart-logo_top">
+  <footer class="footer-top">
+    <div class="content content_footer-top">
+      <div class="footer-top__top">
+        <div class="footer-top__logo">
+          <h1 classs="text-common technomart-logo_top">
               <a class="link-common logo logo_footer" href="#">Техномарт</a>
             </h1>
-          </div>
-          <ul class="list-common footer-top__menu footer-top__menu_1">
-            <li class="footer-top__li footer-top__li_1">
-              <a href="#" class="link-common footer-top__menu-link footer-top__menu-link_1">Компания</a>
-            </li>
-            <li class="footer-top__li footer-top__li_1">
-              <a href="#" class="link-common footer-top__menu-link footer-top__menu-link_1">Новости</a>
-            </li>
-            <li class="footer-top__li footer-top__li_1">
-              <a href="#" class="link-common footer-top__menu-link footer-top__menu-link_1">Каталог</a>
-            </li>
-            <li class="footer-top__li footer-top__li_1">
-              <a href="#" class="link-common footer-top__menu-link footer-top__menu-link_1">Доставка</a>
-            </li>
-            <li class="footer-top__li footer-top__li_1">
-              <a href="#" class="link-common footer-top__menu-link footer-top__menu-link_1">Контакты</a>
-            </li>
-          </ul>
         </div>
-        <div class="footer-top__bottom">
-          <span class="text-common footer-top__span">
+        <ul class="list-common footer-top__menu footer-top__menu_1">
+          <li class="footer-top__li footer-top__li_1">
+            <a href="#" class="link-common footer-top__menu-link footer-top__menu-link_1">Компания</a>
+          </li>
+          <li class="footer-top__li footer-top__li_1">
+            <a href="#" class="link-common footer-top__menu-link footer-top__menu-link_1">Новости</a>
+          </li>
+          <li class="footer-top__li footer-top__li_1">
+            <a href="#" class="link-common footer-top__menu-link footer-top__menu-link_1">Каталог</a>
+          </li>
+          <li class="footer-top__li footer-top__li_1">
+            <a href="#" class="link-common footer-top__menu-link footer-top__menu-link_1">Доставка</a>
+          </li>
+          <li class="footer-top__li footer-top__li_1">
+            <a href="#" class="link-common footer-top__menu-link footer-top__menu-link_1">Контакты</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-top__bottom">
+        <span class="text-common footer-top__span">
             г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
             +7 (812) 555-05-55
           </span>
-          <ul class="list-common footer-top__menu footer-top__menu_2">
-            <li class="footer-top__li footer-top__li_2">
-              <a href="#" class="link-common footer-top__menu-link footer-top__menu-link_2">Материалы</a>
-            </li>
-            <li class="footer-top__li footer-top__li_2">
-              <a href="#" class="link-common footer-top__menu-link footer-top__menu-link_2">Техника</a>
-            </li>
-            <li class="footer-top__li footer-top__li_2">
-              <a href="#" class="link-common footer-top__menu-link footer-top__menu-link_2">Инструмент</a>
-            </li>
-            <li class="footer-top__li footer-top__li_2">
-              <a href="#" class="link-common footer-top__menu-link footer-top__menu-link_2">Спецпредложения</a>
-            </li>
-          </ul>
-        </div>
+        <ul class="list-common footer-top__menu footer-top__menu_2">
+          <li class="footer-top__li footer-top__li_2">
+            <a href="#" class="link-common footer-top__menu-link footer-top__menu-link_2">Материалы</a>
+          </li>
+          <li class="footer-top__li footer-top__li_2">
+            <a href="#" class="link-common footer-top__menu-link footer-top__menu-link_2">Техника</a>
+          </li>
+          <li class="footer-top__li footer-top__li_2">
+            <a href="#" class="link-common footer-top__menu-link footer-top__menu-link_2">Инструмент</a>
+          </li>
+          <li class="footer-top__li footer-top__li_2">
+            <a href="#" class="link-common footer-top__menu-link footer-top__menu-link_2">Спецпредложения</a>
+          </li>
+        </ul>
       </div>
-    </footer>
-    <footer class="footer-bottom">
-      <div class="content content_footer-bottom">
-        <span class="text-common footer-bottom__span footer-bottom__span_company">
+    </div>
+  </footer>
+  <footer class="footer-bottom">
+    <div class="content content_footer-bottom">
+      <span class="text-common footer-bottom__span footer-bottom__span_company">
           © 2010–2016 Компания «Техномарт»
           Все права защищены
         </span>
-        <ul class="list-common footer-bottom__socials">
-          <li class="footer-bottom__li">
-            <a href="#" class="link-common footer-bottom__social-link">
-              <span class="text-common footer-bottom__icon-font icon-vk"></span>
-            </a>
-          </li>
-          <li class="footer-bottom__li">
-            <a href="#" class="link-common footer-bottom__social-link">
-              <span class="text-common footer-bottom__icon-font icon-facebook"></span>
-            </a>
-          </li>
-          <li class="footer-bottom__li">
-            <a href="#" class="link-common footer-bottom__social-link">
-              <span class="text-common footer-bottom__icon-font icon-instagramm"></span>
-            </a>
-          </li>
-        </ul>
-        <div class="footer__feedback">
-          <div class="footer__feedback_col footer__feedback_col_left footer-bottom__feedback">
-            <span class="text-common footer-bottom__span footer-bottom__span_feedback">Обратная связь:</span>
-            <a class="link-common footer-bottom__link footer-bottom__link_feedback" href="#">mail@htmlacademy.ru</a>
-          </div>
-          <div class="footer__feedback_col footer__feedback_col_right footer-bottom__dev">
-            <span class="text-common footer-bottom__span footer-bottom__span_dev">Разработано -</span>
-            <a class="link-common footer-bottom__link footer-bottom__link_dev" href="https://htmlacademy.ru/">htmlacademy.ru</a>
-          </div>
+      <ul class="list-common footer-bottom__socials">
+        <li class="footer-bottom__li">
+          <a href="#" class="link-common footer-bottom__social-link">
+            <span class="text-common footer-bottom__icon-font icon-vk"></span>
+          </a>
+        </li>
+        <li class="footer-bottom__li">
+          <a href="#" class="link-common footer-bottom__social-link">
+            <span class="text-common footer-bottom__icon-font icon-facebook"></span>
+          </a>
+        </li>
+        <li class="footer-bottom__li">
+          <a href="#" class="link-common footer-bottom__social-link">
+            <span class="text-common footer-bottom__icon-font icon-instagramm"></span>
+          </a>
+        </li>
+      </ul>
+      <div class="footer__feedback">
+        <div class="footer__feedback_col footer__feedback_col_left footer-bottom__feedback">
+          <span class="text-common footer-bottom__span footer-bottom__span_feedback">Обратная связь:</span>
+          <a class="link-common footer-bottom__link footer-bottom__link_feedback" href="#">mail@htmlacademy.ru</a>
+        </div>
+        <div class="footer__feedback_col footer__feedback_col_right footer-bottom__dev">
+          <span class="text-common footer-bottom__span footer-bottom__span_dev">Разработано -</span>
+          <a class="link-common footer-bottom__link footer-bottom__link_dev" href="https://htmlacademy.ru/">htmlacademy.ru</a>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <a href="symbols-technomart-icon-font-demo.html">ICON-FONT</a>
+  <a href="symbols-technomart-icon-font-demo.html">ICON-FONT</a>
   </main>
 
   <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
