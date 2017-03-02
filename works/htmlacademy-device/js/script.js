@@ -4,7 +4,24 @@
 $(document).ready(function () {
   "use strict";
   
-// Write-us behaviour  
+/*Slider behaviour*/
+  $.fn.sliderSwitcher = function () {
+    var
+      $curInputChecked = $('.slider__input:checked'),
+      $nextInputChecked = $curInputChecked.next();
+    
+    $curInputChecked.removeAttr('checked');
+    if (($nextInputChecked.prop('type')) === 'radio') {
+      $nextInputChecked.prop('checked', 'checked');
+    } else {
+      $nextInputChecked = $('.slider__input').first().prop('checked', 'checked');
+    }
+  };
+  
+  setInterval($.fn.sliderSwitcher, 4000);
+  
+  
+/* Write-us behaviour  */
   $('.js-write-us').click(function () {
     event.preventDefault();
 
@@ -23,7 +40,7 @@ $(document).ready(function () {
     });
   });
 
-  // Map behaviour  
+  /* Map behaviour  */
   $('.js-open-map').click(function () {
     event.preventDefault();
 
