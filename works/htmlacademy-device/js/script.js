@@ -22,8 +22,8 @@ $(document).ready(function () {
   
   
 /* Write-us behaviour  */
-  $('.js-write-us').click(function () {
-    event.preventDefault();
+  $('.js-write-us').click(function (event) {
+    event.preventDefault(event);
 
     $('.overlay').show();
     $('.modal-content').addClass('modal-content-show', function () {
@@ -31,8 +31,8 @@ $(document).ready(function () {
     });
   });
 
-  $('.modal-content-close').click(function () {
-    event.preventDefault();
+  $('.modal-content-close').click(function (event) {
+    event.preventDefault(event);
 
     $('.overlay').hide();
     $('.modal-content').removeClass('modal-content-show', function () {
@@ -41,8 +41,8 @@ $(document).ready(function () {
   });
 
   /* Map behaviour  */
-  $('.js-open-map').click(function () {
-    event.preventDefault();
+  $('.js-open-map').click(function (event) {
+    event.preventDefault(event);
 
     $('.overlay').show();
     $('.modal-content-map').addClass('modal-content-show', function () {
@@ -50,8 +50,8 @@ $(document).ready(function () {
     });
   });
 
-  $('.modal-content-close').click(function () {
-    event.preventDefault();
+  $('.modal-content-close').click(function (event) {
+    event.preventDefault(event);
 
     $('.overlay').hide();
     $('.modal-content-map').removeClass('modal-content-show');
