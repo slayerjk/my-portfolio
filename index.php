@@ -125,8 +125,8 @@
             <h3 class="my-works__work-title">HTML Academy - Pink</h3>
             <p class="my-works__work-description">
               Трёхстраничный (index/media/form) сайт, посвященный мобильному приложению.
-              <br>Responsive: <span class="colored-text1">Responsive(320px-1200px), retina(2x).</span>.
-              <br>Technologies: <span class="colored-text1">JS, БЭМ, Gulp</span>
+              <br>Responsive: <span class="colored-text1">Responsive(320px-1200px).</span>.
+              <br>Technologies: <span class="colored-text1">JS, БЭМ, Gulp, retina(2x)</span>
               <br>Свёрстано с макета HTMLAcademy.ru.
             </p>
             <div class="my-works__work-links">
@@ -135,7 +135,7 @@
               <a href="works/htmlacademy-pink/pink-contest.html" class="my-works__work-link">Form</a>
             </div>
           </div>
-          <img class="my-works__work-img" src="img/my-works__pink.jpg" width="370" height="250" alt="Htmlacademy.ru-Pink">
+          <img class="my-works__work-img" src="img/my-works__pink.jpg" width="1017" height="751" alt="Htmlacademy.ru-Pink">
         </div>
 
         <div class="my-works__work">
@@ -143,8 +143,8 @@
             <h3 class="my-works__work-title">HTML Academy - Sedona</h3>
             <p class="my-works__work-description">
               Трёхстраничный (index/media/form) туристический сайт.
-              <br>Responsive: <span class="colored-text1">Responsive(320px-1200px), retina(2x).</span>.
-              <br>Technologies: <span class="colored-text1">JS, БЭМ, Gulp</span>
+              <br>Responsive: <span class="colored-text1">Responsive(320px-1200px).</span>.
+              <br>Technologies: <span class="colored-text1">JS, БЭМ, Gulp, retina(2x)</span>
               <br>Курсовая работа Продвинутого интенсива(№11 c 22 мая по 28 июня 2017) HTMLAcademy.ru.
             </p>
             <div class="my-works__work-links">
@@ -153,7 +153,7 @@
               <a href="works/htmlacademy-sedona/sedona-form.html" class="my-works__work-link">Form</a>
             </div>
           </div>
-          <img class="my-works__work-img" src="img/my-works__sedona.jpg" width="370" height="250" alt="Htmlacademy.ru-Glacy">
+          <img class="my-works__work-img" src="img/my-works__sedona.jpg" width="1113" height="577" alt="Htmlacademy.ru-Glacy">
         </div>
 
         <div class="my-works__work">
@@ -163,14 +163,14 @@
               Двухстраничный сайт(index/catalog) интернет-магазина.
               <br>Adaptive/Responsive: <span class="colored-text1">adaptive(1200px-900px).</span>.
               <br>Technologies: <span class="colored-text1">JS</span>
-              <br>Свёрстано с макета HTMLAcademy.ru.
+              <br>Свёрстано с учебного макета HTMLAcademy.ru.
             </p>
             <div class="my-works__work-links">
               <a href="works/htmlacademy-glacy/index.html" class="my-works__work-link">Index</a>
               <a href="works/htmlacademy-glacy/catalog-creamy.html" class="my-works__work-link">Catalog</a>
             </div>
           </div>
-          <img class="my-works__work-img" src="img/my-works__glacy.jpg" width="370" height="250" alt="Htmlacademy.ru-Glacy">
+          <img class="my-works__work-img" src="img/my-works__glacy.jpg" width="1170" height="375" alt="Htmlacademy.ru-Glacy">
         </div>
 
         <div class="my-works__work">
@@ -179,13 +179,14 @@
             <p class="my-works__work-description">
               Landing page.
               <br>Adaptive/Responsive: <span class="colored-text1">responsive</span>.
+              <br>Свёрстано с бесплатного макета.
               <br><a class="my-works__work-link" href="http://blazrobar.com/free-psd-website-templates/eclipse-free-website-psd-template/">Ссылка на макет</a>
             </p>
             <div class="my-works__work-links">
               <a href="works/eclipse-free-psd/index.html" class="my-works__work-link">Index</a>
             </div>
           </div>
-          <img class="my-works__work-img" src="img/my-works__eclipse.jpg" width="370" height="250" alt="Htmlacademy.ru-Technomart">
+          <img class="my-works__work-img" src="img/my-works__eclipse.jpg" width="1403" height="817" alt="Htmlacademy.ru-Technomart">
         </div>
 
         <div class="my-works__work">
@@ -195,14 +196,14 @@
               Двухстраничный сайт(index/catalog) интернет-магазина.
               <br>Adaptive/Responsive: <span class="colored-text1">none(fixed, 960px)</span>.
               <br>Technologies: <span class="colored-text1">JS</span>
-              <br>Свёрстано с макета HTMLAcademy.ru.
+              <br>Свёрстано с учебного макета HTMLAcademy.ru.
             </p>
             <div class="my-works__work-links">
               <a href="works/htmlacademy-technomart/index.html" class="my-works__work-link">Index</a>
               <a href="works/htmlacademy-technomart/technomart-catalog-perforators.html" class="my-works__work-link">Catalog</a>
             </div>
           </div>
-          <img class="my-works__work-img" src="img/my-works__technomart.jpg" width="370" height="250" alt="Htmlacademy.ru-Technomart">
+          <img class="my-works__work-img" src="img/my-works__technomart.jpg" width="1188" height="798" alt="Htmlacademy.ru-Technomart">
         </div>
 
         <div class="my-works__work">
@@ -212,14 +213,14 @@
               Двухстраничный сайт(index/catalog) интернет-магазина.
               <br>Adaptive/Responsive: <span class="colored-text1">none(fixed, 880px)</span>.
               <br>Technologies: <span class="colored-text1">JS</span>
-              <br>Свёрстано с макета HTMLAcademy.ru.
+              <br>Свёрстано с учебного макета HTMLAcademy.ru.
             </p>
             <div class="my-works__work-links">
               <a href="works/htmlacademy-nerds/index.html" class="my-works__work-link">Index</a>
               <a href="works/htmlacademy-nerds/catalog.html" class="my-works__work-link">Catalog</a>
             </div>
           </div>
-          <img class="my-works__work-img" src="img/my-works__nerds.jpg" width="370" height="250" alt="HTMLAcademy-Nerds">
+          <img class="my-works__work-img" src="img/my-works__nerds.jpg" width="1181" height="821" alt="HTMLAcademy-Nerds">
         </div>
 
         <div class="my-works__work">
@@ -227,32 +228,33 @@
             <h3 class="my-works__work-title">Htmlacademy.ru-Device</h3>
             <p class="my-works__work-description">
               Двухстраничный сайт(index/catalog) интернет-магазина.
-              <br>Adaptive/Responsive: <span class="colored-text1">none(fixed, 1160px)S</span>.
+              <br>Adaptive/Responsive: <span class="colored-text1">none(fixed, 1160px).</span>.
               <br>Technologies: <span class="colored-text1">JS</span>
               <br>Курсовая работа базового интенсива(#14 08.01-09.07 2016).
-              <br>Свёрстано с макета HTMLAcademy.ru.
+              <br>Свёрстано с учебного макета HTMLAcademy.ru.
             </p>
             <div class="my-works__work-links">
               <a href="works/htmlacademy-device/index.html" class="my-works__work-link">Index</a>
               <a href="works/htmlacademy-device/catalog-selfie-monopods.html" class="my-works__work-link">Catalog</a>
             </div>
           </div>
-          <img class="my-works__work-img" src="img/my-works__device.jpg" width="370" height="250" alt="Htmlacademy.ru-Device">
+          <img class="my-works__work-img" src="img/my-works__device.jpg" width="1370" height="767" alt="Htmlacademy.ru-Device">
         </div>
 
         <div class="my-works__work">
           <div class="my-works__work-overlay">
             <h3 class="my-works__work-title">One-Page.kz test-project</h3>
             <p class="my-works__work-description">
-              Одностраничный сайт-анкета(заполненный моими данными). Тестовое задание на должность «HTML верстальщик» в компании One-Page.kz.
+              Одностраничный сайт-анкета(заполненный моими данными).
               <br>Adaptive/Responsive: <span class="colored-text1">responsive(320+)</span>.
               <br>Technologies: <span class="colored-text1">JS, БЭМ, Gulp</span>
+              <br>Тестовое задание на должность «HTML верстальщик» в компании One-Page.kz.
             </p>
             <div class="my-works__work-links">
               <a href="works/one-page-test/index.html" class="my-works__work-link">Index</a>
             </div>
           </div>
-          <img class="my-works__work-img" src="img/my-works__one-page-test.jpg" width="370" height="250" alt="PixelPlus test-project">
+          <img class="my-works__work-img" src="img/my-works__one-page-test.jpg" width="370" height="230" alt="PixelPlus test-project">
         </div>
 
         <div class="my-works__work">
@@ -268,10 +270,9 @@
               <a href="works/pixel-plus-test-psd/index.html" class="my-works__work-link">Index</a>
             </div>
           </div>
-          <img class="my-works__work-img" src="img/my-works__pixel-plus.jpg" width="370" height="250" alt="PixelPlus test-project">
+          <img class="my-works__work-img" src="img/my-works__pixel-plus.jpg" width="1267" height="686" alt="PixelPlus test-project">
         </div>
       </div>
-      <span class="my-works__works-etc">*А также несколько более простых работ с бесплатных *.psd.</span>
     </div>
   </div>
 
@@ -285,7 +286,7 @@
 
       </div>
       <div class="copyright">
-        ©2017
+        ©<?php echo date(Y); ?>
       </div>
     </div>
   </footer>

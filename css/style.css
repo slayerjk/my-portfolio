@@ -114,6 +114,7 @@ img,
 video,
 audio {
   max-width: 100%;
+  height: auto;
 }
 
 .clearfix {
@@ -314,6 +315,10 @@ audio {
 
 .my-works__work:hover .my-works__work-img {
   opacity: 0.3;
+}
+
+.my-works__work-img {
+  height: 230px;
 }
 
 .my-works__work-overlay {
