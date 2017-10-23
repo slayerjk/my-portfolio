@@ -126,7 +126,7 @@
             <p class="my-works__work-description">
               Трёхстраничный (index/media/form) сайт, посвященный мобильному приложению.
               <br>Responsive: <span class="colored-text1">Responsive(320px-1200px).</span>.
-              <br>Technologies: <span class="colored-text1">JS, БЭМ, Gulp, retina(2x)</span>
+              <br>Technologies: <span class="colored-text1">JS, SASS, БЭМ, Gulp, retina(2x)</span>
               <br>Свёрстано с макета HTMLAcademy.ru.
             </p>
             <div class="my-works__work-links">
@@ -144,7 +144,7 @@
             <p class="my-works__work-description">
               Трёхстраничный (index/media/form) туристический сайт.
               <br>Responsive: <span class="colored-text1">Responsive(320px-1200px).</span>.
-              <br>Technologies: <span class="colored-text1">JS, БЭМ, Gulp, retina(2x)</span>
+              <br>Technologies: <span class="colored-text1">JS, SASS, БЭМ, Gulp, retina(2x)</span>
               <br>Курсовая работа Продвинутого интенсива(№11 c 22 мая по 28 июня 2017) HTMLAcademy.ru.
             </p>
             <div class="my-works__work-links">
